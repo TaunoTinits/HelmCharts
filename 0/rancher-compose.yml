@@ -1,0 +1,15 @@
+.catalog:
+  name: "Vaimo Magento2 exmple"
+  version: "1.0.0"
+  description: ""
+  questions:
+    - variable: "MAGENTO_PASSWORD"
+      label: "Magento password"
+      required: true
+      default: "admin1234"
+      type: "string"
+    - variable: "SERVICE_PORT"
+      label: "Service port"
+      required: true
+      default: 80
+      type: "int"
